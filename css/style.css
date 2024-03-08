@@ -2,3 +2,5 @@
 @import "./global/header.css";
 @import "./home/intro.css";
 @import "./utilities/component.css";
+@import "./utilities/colors.css";
+@import "./utilities/typography.css";
