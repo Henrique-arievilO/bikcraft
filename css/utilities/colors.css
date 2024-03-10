@@ -22,12 +22,54 @@
 .color-00{
     color: var(--color-00);
 }
+.color-01{
+    color: var(--color-01);
+}
+.color-02{
+    color: var(--color-02);
+}
+.color-03{
+    color: var(--color-03);
+}
+.color-04{
+    color: var(--color-04);
+}
 .color-05{
     color: var(--color-05);
+}
+.color-06{
+    color: var(--color-06);
+}
+.color-07{
+    color: var(--color-07);
 }
 .color-08{
     color: var(--color-08);
 }
+.color-09{
+    color: var(--color-09);
+}
+.color-10{
+    color: var(--color-10);
+}
+.color-11{
+    color: var(--color-11);
+}
+.color-12{
+    color: var(--color-12);
+}
 .color-p01{
     color: var(--color-p01);
+}
+.color-p02{
+    color: var(--color-p02);
+}
+.color-p03{
+    color: var(--color-p03);
+}
+.color-p04{
+    color: var(--color-p04);
+}
+.color-p05{
+    color: var(--color-p05);
 }
