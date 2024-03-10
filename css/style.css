@@ -17,9 +17,15 @@
 
 /* Bikes */
 @import "./bikes/list-bikes.css";
+@import "./bikes/bikes.css";
 
 /* Insurance */
 @import "./insurance/insurance.css";
+@import "./insurance/benefits.css";
+@import "./insurance/faq.css";
+
+/* Terms */
+@import "./terms/terms.css";
 
 /* Footer */
 @import "./global/footer.css";

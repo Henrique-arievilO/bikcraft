@@ -29,12 +29,28 @@
         font-size: 1rem;
     }
 }
-.secondary-button{
+.button.secondary-button{
     background: linear-gradient(#595959, #2e2e2e);
     color: var(--color-02);
 }
-.secondary-button:hover{
+.button.secondary-button:hover{
     background: linear-gradient(#404040, #313131);
+}
+.button.arrow{
+    display: flex;
+    align-items: center;
+}
+.button.arrow::after{
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background-image: url(../../img/icones/seta.svg);
+    transition: .3s;
+}
+.button.arrow:hover::after{
+    transform: translateX(4px);
 }
 /* Link */
 .link{
@@ -52,4 +68,25 @@
 }
 .link:hover{
     color: var(--color-00);
+}
+/*Internal Title*/
+.title-bg{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--color-11);
+}
+.title p{
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px){
+    .title-bg{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .title p{
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
 }
