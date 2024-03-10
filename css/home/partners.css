@@ -38,6 +38,10 @@
     .partners ul{
         grid-template-columns: 1fr 1fr;
     }
+    .partners li{
+        padding: 20px;
+        display: flex;
+    }
     .partners li:nth-child(n + 3){
         border-top: 2px solid var(--color-02);
     }
