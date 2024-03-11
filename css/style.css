@@ -29,3 +29,6 @@
 
 /* Footer */
 @import "./global/footer.css";
+
+/* Bikes Internal */
+@import "./bike/bike.css";
