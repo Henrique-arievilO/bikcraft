@@ -19,6 +19,10 @@
 @import "./bikes/list-bikes.css";
 @import "./bikes/bikes.css";
 
+/* Bikes Internal */
+@import "./bike/bike.css";
+@import "./bike/insurance.css";
+
 /* Insurance */
 @import "./insurance/insurance.css";
 @import "./insurance/benefits.css";
@@ -30,5 +34,3 @@
 /* Footer */
 @import "./global/footer.css";
 
-/* Bikes Internal */
-@import "./bike/bike.css";

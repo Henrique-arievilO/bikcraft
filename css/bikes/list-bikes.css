@@ -14,6 +14,9 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
+#bikes-internal .list-bike ul{
+    padding: 0 0 20px 0;
+}
 .list-bike ul li{
     min-width: 280px;
 }
