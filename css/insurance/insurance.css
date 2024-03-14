@@ -1,5 +1,7 @@
 .insurance-bg{
     background: var(--color-11);
+    box-shadow: none;
+    
 }
 .insurance{
     padding-top: 60px;

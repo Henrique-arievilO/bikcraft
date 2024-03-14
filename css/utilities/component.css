@@ -77,6 +77,9 @@
     padding-bottom: 60px;
     background: var(--color-11);
 }
+.title{
+    background: url(../../img/dec/top-right.svg) no-repeat top 40px right 20px;
+}
 .title p{
     margin-bottom: 4px;
 }

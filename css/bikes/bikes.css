@@ -25,6 +25,7 @@
     display: grid;
     grid-template-columns: 1fr auto;
     align-content: start;
+    /* background: url(../../img/dec/top-right.svg) no-repeat top 0px right 20px; */
 }
 .bikes h2, .bikes p{
     grid-column: 1/-1;

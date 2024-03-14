@@ -11,11 +11,11 @@
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 .contact-data{
-    background: var(--color-12);
+    background: var(--color-12) url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
     border-radius: 4px 0 0 4px;
 }
 .contact-form{
-    background: var(--color-00);
+    background: var(--color-00) url(../../img/dec/top-right.svg) no-repeat top 20px right 20px;
     border-radius: 0 4px 4px 0;
 }
 .contact-data h2{
