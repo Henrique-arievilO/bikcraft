@@ -5,6 +5,7 @@
 
 /* Utilidades */
 @import "./utilities/component.css";
+@import "./utilities/form.css";
 
 /* Header */
 @import "./global/header.css";
@@ -30,6 +31,10 @@
 
 /* Terms */
 @import "./terms/terms.css";
+
+/* Contact */
+@import "./contact/contact.css";
+@import "./contact/stores.css";
 
 /* Footer */
 @import "./global/footer.css";
