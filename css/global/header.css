@@ -1,8 +1,9 @@
 /* HEADER */
-.header-bg{
+.header-bg {
     background: var(--color-12);
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,17 +12,20 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
-.header-menu{
+
+.header-menu {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
 }
-.header-menu a{
+
+.header-menu a {
     padding: 16px 0px;
     display: inline-block;
     position: relative;
 }
-.header-menu a::after{
+
+.header-menu a::after {
     content: "";
     display: block;
     height: 2px;
@@ -31,32 +35,39 @@
     transition: 0.3s;
     position: absolute;
 }
-.header-menu a:hover:after{
+
+.header-menu a:hover::after,
+.header-menu a.active::after {
     width: 100%;
 }
 
 /* MEDIA QUERIES */
 @media (max-width: 800px) {
-    .header-menu{
+    .header-menu {
         gap: 20px;
     }
-    .header-menu a{
+
+    .header-menu a {
         background-color: var(--color-12);
         padding: 12px 16px;
         border-radius: 4px;
     }
-    .header-menu a:hover{
+
+    .header-menu a:hover {
         background-color: var(--color-10);
     }
-    .header-menu a::after{
+
+    .header-menu a::after {
         display: none;
     }
 }
+
 @media (max-width: 600px) {
-    .header-menu{
+    .header-menu {
         gap: 12px;
     }
-    .header-menu a{
+
+    .header-menu a {
         background-color: var(--color-11);
         padding: 8px 12px;
         font-size: 14px;
