@@ -75,3 +75,43 @@ function faqEvents(faq){
 
 faqs.forEach(faqEvents)
 
+////////////////////////////////////////////////////////////////////////////////
+
+//Animando a galeria com seletor de clique.
+
+    //Primeiramente foram capturadas as imagens e a galeria que contém elas.
+    //Em seguida, utilizado o forEach para falar com cada imagem individualmente.
+    //Depois criou-se uma função com efeito de clique que corresponde a uma função externa.
+    //Na função externa, foi definido que ao clicar na imagem, ela deve responder a um evento que troca as imagens de lugar, levando a imagem clicaca para a primeira posição.
+    //Para efeito de melhor visualização, foi definido que abaixo de um tamanho específico, esse efeito não funcionaria mais, sendo assim, esta função só é ativada, se o tamanho da tela corresponder ao mínimo estabelecido.
+
+const galery = document.querySelectorAll(".bike-image img");
+const galeryContainer = document.querySelector(".bike-image");
+
+function changeImg(event){
+    const img = event.currentTarget;
+    const media = matchMedia('(min-width: 1000px)').matches;
+    if (media) {
+        galeryContainer?.prepend(img)
+    }
+    console.log(img);
+}
+
+function eventImg(img){
+    img.addEventListener("click", changeImg);
+}
+
+galery.forEach(eventImg)
+
+////////////////////////////////////////////////////////////////////////////////
+
+//Adicionando plugin de animação.
+
+//Instruções em: https://github.com/origamid/simple-anime/tree/master no READme
+
+// @ts-ignore
+if (window.SimpleAnime){
+    // @ts-ignore
+    new SimpleAnime();
+}
+

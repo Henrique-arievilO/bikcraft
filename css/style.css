@@ -6,6 +6,7 @@
 /* Utilidades */
 @import "./utilities/component.css";
 @import "./utilities/form.css";
+@import "./utilities/animation.css";
 
 /* Header */
 @import "./global/header.css";
@@ -41,4 +42,3 @@
 
 /* Footer */
 @import "./global/footer.css";
-
